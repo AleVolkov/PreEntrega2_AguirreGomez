@@ -120,6 +120,31 @@ h3.skills_bottom {
     font-family: 'Montserrat', sans-serif;
 }
 
+.b_header {
+    color: midnightblue;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.studies_heading {
+    color: midnightblue;
+    display: flex;
+    justify-content: flex-start ;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.studies_p {
+    color: rgb(71, 71, 71);
+    display: flex;
+    justify-content: flex-start ;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 .skills_header {
     color: white;
     padding-top: 20;
@@ -160,12 +185,21 @@ h3.skills_bottom {
 
 }
 
+.custom-bg {
+    background-color: midnightblue; 
+    width: 100vw;
+}
 
-/* @media (max-width:800px) {
-    .masterhead {
-        background-image: none;
-        background-color: #F8F9FA;
+.navbar_logo {
+    width: auto;
+    height: 30px;
+}
+
+
+@media (max-width:800px) {
+    .img_education {
+        align-items: center
     }
     
-} */
+} 
 
